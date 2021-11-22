@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+.section1{
+    /* font-family: 'Rubik', sans-serif; */
+    font-weight:400;
+    
+    width: 100vw;
+    background-image: linear-gradient(rgba(5, 3, 3, 0.8),rgba(0,0,0,0.8)),url(https://images.unsplash.com/photo-1444065707204-12decac917e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80);
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* .content{height:100vh;} */
+.section1container{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    padding-bottom: 6rem;
+
+}
+.main{
+    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Source Code Pro', monospace; */
+
+    font-weight: 800;
+
+}
+.line{
+   color: orange;
+
+
+}
+.myself{
+    margin-top: 8rem;
+    font-family: 'Open Sans', sans-serif;
+    
+    overflow: hidden;
+}
+/* ---------------------------------------------------
+ */
+ .icon{
+     color:white;
+ }
+.mynavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.7);
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+.brand-title{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+    margin-bottom: -0.5rem;
+    color: rgb(204, 204, 204);
+    font-size: 1.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;display: flex;
+    position: fixed;
+    /* top: 0.9rem; */
+    margin-top: -0.8rem;
+    right: 1rem;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+letter-spacing: 0.1rem;
+    padding-right: 2rem;
+}
+.navbar-links li a:hover{
+    color: orange;
+}
+.togglebutton{
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+    flex-direction: column;
+    display: none;
+}
+@media(max-width:600px)
+{
+    .togglebutton{
+        display: flex;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .mynavbar{
+        flex-direction: column;
+        align-items: flex-start;
+        
+
+    }
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+
+    background-color: rgba(0, 0, 0,0.7);
+
+       right: 0rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        margin-top: 0.5rem;
+    }
+    .navbar-links ul li{
+        padding-bottom: 0.5rem;
+    }
+    .navbar-links li a:hover{
+        color: orange;
+    }
+    .navbar-links.active{
+        display: flex;
+        
+    }
+
+}
+ /* ----------------------------- */
+ /* .navbar{
+z-index: 9999;
+
+
+ } */
+
+ /* .navbar-brand{font-size: 20px; */
+/* color: white; */
+/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+/* } */
+ /* .nav-link{
+     font-size: 13px;
+    /* font-family: 'Rubik', sans-serif; */
+/* color: white; */
+ /* } */
+ /* .nav-link:hover{
+     color: rgb(246, 123, 8);
+ } */
+/* .navbar-toggler{color: rgb(0, 0, 0);
+background-color: white;
+} */
+
+
+
+ /* ----------------------------------------------------------- */
+
+ @media only screen and (max-width: 410px) {
+     .myself{
+         margin-top: 4rem;
+         padding-bottom: 0rem;
+
+     }
+ }
+ @media only screen and (max-width: 325px) {
+     .myself{
+         margin-top: 4rem;
+         padding-bottom: 0rem;
+  margin-bottom: -6rem;
+
+     }
+     .myselfcontent{
+         text-align: start;
+     }
+ }
+  @media only screen and (max-width: 284px) {
+     .myself{
+         margin-top: 4rem;
+  margin-bottom: -6rem;
+         padding-bottom: 0rem;
+
+     }
+ } 
+ /* ----------------------------------------------- */
+
+ /* .toggle-button:hover{color: white;} */
+ @media only screen and (max-width: 650px) {
+   /* .toggle-button{display: flex;} */
+   /* .nav-link{ */
+       
+    /* display: none; */
+/* } */
+/* .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+} */
+/* .nav-link{
+
+display: block;
+
+} */
+
+}

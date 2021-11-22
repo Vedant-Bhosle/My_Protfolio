@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.section4_1_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+.section3_2_container{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+
+}
+.card1{
+    margin-right: 3rem;
+    border: 2px solid rgba(139, 136, 136, 0.5);
+    
+   
+}
+.card2{
+    border: 2px solid rgba(139, 136, 136, 0.5);
+
+}
+.projectheading{
+    color: rgb(161, 4, 43);
+    font-family: 'Source Code Pro', monospace;
+    
+    overflow: hidden;
+
+
+}
+
+.section3{
+    background-color: rgb(238, 236, 236);
+
+}
+@media(max-width:575px){
+    .card1{
+        margin-right: 0rem;
+    }
+
+}
