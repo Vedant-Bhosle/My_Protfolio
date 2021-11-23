@@ -31,10 +31,10 @@ export default function Section1() {
                         <h2 className="main">Vedant Bhosle</h2>
                         <h1 className="main"> &lt; Frontend Devloper /	&gt;</h1>
 
-                        <p className="mt-4 myselfcontent">I design and build quality responsive websites, clean user interface and rich interactive web apps. <br />
+                        <p className="mt-4 myselfcontent">I design and build quality responsive websites, clean user interface and rich interactive web apps <br />
 
 
-                            Targeting React Javascript adn other web devlopment apportunities.</p>
+                            Targeting React Javascript and other web devlopment apportunities.</p>
                         <p>i'm open to learning, adapt to work with the team ,freelance oppertunities,contract jobs and use <br />skills to solve to complex UI challanges and provide value to the growth of an organization.</p>
                     </div>
                 </div>
